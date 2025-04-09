@@ -9,11 +9,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Display message
-        run: echo "Job is executing as part of Basic workflow"
-
       - name: Compile Java class
-        run: javac devops/cicd/MyCalc.java
+        run: javac MyCalc.java
 
       - name: Run Java program
-        run: java devops.cicd.MyCalc
+        run: java MyCalc

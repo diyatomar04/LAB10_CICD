@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Job is executing as part of Basic workflow"
+      - run: java my_clac.java
+      - run: java my_calc

@@ -1,4 +1,4 @@
-package devops.cicd;
+
 
 public class MyCalc {
 	public int sum(int a, int b)
